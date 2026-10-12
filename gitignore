@@ -1,0 +1,86 @@
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcuserstate
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode project workspace user data
+*.xcuserdatad/
+*.xcuserdatas
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Archives and exported apps
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Logs and crash reports
+*.log
+*.crash
+*.ips
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+secrets/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# macOS app build products
+*.app
+*.framework
+*.dylib
+
+# Test results
+*.xcresult
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Dependency managers
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
